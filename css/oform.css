@@ -1,0 +1,225 @@
+/* Импорт шрифта */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 0, 157);
+    background-image: url('/image/Темная тема.png');
+    /* Ссылка на изображение */
+    background-size: cover;
+    /* Изображение будет растянуто на весь экран */
+    background-position: center;
+    /* Изображение будет центрировано */
+    background-repeat: no-repeat;
+    /* Изображение не будет повторяться */
+    height: 100vh;
+    /* Высота страницы 100% от высоты экрана */
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 0, 157);
+}
+li{
+    text-decoration: none;
+    list-style-type: none ;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.logo {
+    margin-left: 45px;
+    margin-top: -30px;
+    max-width: 230px;
+}
+
+
+
+
+header {
+    display: flex;
+    justify-content: 0;
+    align-items: center;
+    padding: 40px;
+}
+
+.menu {
+    display: flex;
+    gap: 2.5px;
+    list-style: none;
+}
+
+.menu li {
+
+    margin: 0;
+    margin-left: 25px;
+    margin-top: 0px;
+}
+
+.menu a {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Дополнительные стили для ссылок */
+.kat,
+.support,
+.where {
+    transition: color 0.3s ease;
+}
+
+.kat:hover,
+.support:hover,
+.where:hover {
+    color: rgb(250, 250, 250);
+    /* Эффект при наведении */
+}
+
+.search-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ff00aa;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-container button {
+    background-color: #ff0178;
+    /* Розовый цвет */
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    font-size: 16px;
+}
+
+.search-container button:hover {
+    background-color: #be1879;
+    /* Темнее при наведении */
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    /* Можно изменить размер */
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.korzina {
+
+    margin-left: 10px;
+    margin-top: -52.5px;
+    max-width: 125px;
+}
+
+.profile {
+    margin-left: -20px;
+    margin-top: -22.5px;
+    max-width: 90px;
+}
+/* Стили оформления */
+.text_oform {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+/* Контейнеры доставки и оплаты */
+.container_dost,
+.container_opl {
+    max-width: 10.625rem;
+    margin-left: 6.25rem;
+}
+
+.text_opl {
+    color: var(--text-color);
+    margin-left: 6.25rem;
+}
+
+/* Стили данных */
+.dannie {
+    font-size: 1.25rem;
+    margin-left: 62.5rem;
+    margin-top: 3.125rem;
+}
+
+.menu_dannie {
+    display: flex;
+    margin-left: 31.25rem;
+    margin-top: 1.25rem;
+    gap: 1.25rem;
+}
+
+/* Стили контейнера заказа */
+.container_zakaz {
+    max-width: 25rem;
+    margin-top: -12.5rem;
+    padding: 1.25rem;
+    margin-left: 56.25rem;
+    border: 2px solid ;
+    border-radius: 3px;
+    background-color: rgb(0, 0, 0);
+    color: var(--text-color);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    float: left;
+}
+
+.otmena_zakaz {
+    width: 12.5rem;
+    text-align: left;
+    margin-bottom: 1.25rem;
+    font-size: 1rem;
+    color: #00f;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.container_zakaz p {
+    margin: 0.9375rem 0;
+    font-size: 1.125rem;
+}
+
+.sum_dost,
+.itogo {
+    border: 2px solid var(--text-color);
+    padding: 0.625rem;
+    margin-bottom: 1.25rem;
+    border-radius: var(--border-radius);
+    font-size: 1.125rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button2 {
+    background-color: #ffffff;
+    color: var(--text-color);
+    padding: 0.9375rem;
+    border: 2px solid var(--text-color);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.125rem;
+    margin-top: 1.25rem;
+    transition: background-color 0.3s ease;
+}
+
+.button2:hover {
+    background-color: #555;
+}
+

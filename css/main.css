@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background-image: url('/image/Темная тема.png');
+    /* Ссылка на изображение */
+    background-size: cover;
+    /* Изображение будет растянуто на весь экран */
+    background-position: center;
+    /* Изображение будет центрировано */
+    background-repeat: no-repeat;
+    /* Изображение не будет повторяться */
+    height: 100vh;
+    /* Высота страницы 100% от высоты экрана */
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 0, 157);
+}
+li{
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.logo {
+    margin-left: 45px;
+    margin-top: -30px;
+    max-width: 230px;
+}
+
+
+
+
+header {
+    display: flex;
+    justify-content: 0;
+    align-items: center;
+    padding: 40px;
+}
+
+.menu {
+    display: flex;
+    gap: 2.5px;
+    list-style: none;
+}
+
+.menu li {
+
+    margin: 0;
+    margin-left: 25px;
+    margin-top: 0px;
+}
+
+.menu a {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Дополнительные стили для ссылок */
+.kat,
+.support,
+.where {
+    transition: color 0.3s ease;
+}
+
+.kat:hover,
+.support:hover,
+.where:hover {
+    color: rgb(250, 250, 250);
+    /* Эффект при наведении */
+}
+
+.search-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ff00aa;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-container button {
+    background-color: #ff0178;
+    /* Розовый цвет */
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    font-size: 16px;
+}
+
+.search-container button:hover {
+    background-color: #be1879;
+    /* Темнее при наведении */
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    /* Можно изменить размер */
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.korzina {
+
+    margin-left: 10px;
+    margin-top: -52.5px;
+    max-width: 125px;
+}
+
+.profile {
+    margin-left: -20px;
+    margin-top: -22.5px;
+    max-width: 90px;
+}
+
+.menu_2 {
+    display: flex;
+    gap: 2.5px;
+    list-style: none;
+}
+
+.menu_2 li {
+    margin: 0;
+    margin-left: 120px;
+    margin-top: 0px;
+}
+
+.menu_2 a {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.vid {
+    max-width: 250px;
+}
+
+.proc {
+    max-width: 200px;
+    margin-top: 30px;
+}
+
+.korpus {
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+.operative {
+    max-width: 225px;
+    margin-top: 30px;
+}
+
+.hdd {
+    max-width: 250px;
+    margin-top: 10px;
+}
+
+.menu_3 {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.menu_3 li {
+
+    margin: 0;
+    margin-left: 160px;
+    margin-top: 0px;
+}
+
+.menu_3 a {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.vid_text,
+.proc_text,
+.korpus_text,
+.operative_text,
+.hdd_text {
+    transition: color 0.5s ease;
+}
+
+.vid_text:hover,
+.proc_text:hover,
+.korpus_text:hover,
+.operative_text:hover,
+.hdd_text:hover {
+    color: rgb(250, 250, 250);
+    /* Эффект при наведении */
+}
+
+.korpus_text {
+    margin: 0;
+    margin-left: 50px;
+
+}
+
+.proc_text {
+    margin: 0;
+    margin-left: 20px;
+
+}
+
+.hdd_text {
+    margin: 0;
+    margin-left: -40px;
+}
+
+.menu_4 {
+    display: flex;
+    gap: 2.5px;
+    list-style: none;
+}
+
+.menu_4 li {
+
+    margin: 0;
+    margin-left: 120px;
+    margin-top: 0px;
+}
+
+.menu_4 a {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.block {
+    max-width: 250px;
+    margin-top: 30px;
+}
+
+.ssd {
+    max-width: 250px;
+    margin-top: 30px;
+}
+
+.mamka {
+    max-width: 150px;
+    margin-top: 40px;
+}
+
+.kuler {
+    max-width: 300px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.service {
+    max-width: 200px;
+    margin-top: 40px;
+    margin-left: 0px;
+}
+
+.menu_5 {
+    display: flex;
+    gap: 0px;
+    list-style: none;
+}
+
+.menu_5 li {
+
+    margin: 0;
+    margin-left: 200px;
+    margin-top: 0px;
+}
+
+.menu_5 a {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.block_text,
+.ssd_text,
+.mamka_text,
+.kuler_text,
+.service_text {
+    transition: color 0.5s ease;
+}
+
+.block_text:hover,
+.ssd_text:hover,
+.mamka_text:hover,
+.kuler_text:hover,
+.service_text:hover {
+    color: rgb(250, 250, 250);
+    /* Эффект при наведении */
+}
+
+.block_text {
+    margin: 0;
+    margin-left: -40px;
+}
+
+.ssd_text {
+    margin: 0;
+    margin-left: 50px;
+}
+
+.mamka_text {
+    margin: 0;
+    margin-left: -20px;
+}
+
+.kuler_text {
+    margin: 0;
+    margin-left: -10px;
+}
+
+.service_text {
+    margin: 0;
+    margin-left: 90px;
+}
