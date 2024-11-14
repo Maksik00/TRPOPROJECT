@@ -24,7 +24,7 @@
                         </div>
                     </li>
                     <li><a title = "Ебанный корзина" href="/korzina.php"><img class="korzina" src="icons/korzina.png"></a></li>
-                    <li><a title = "Не регайся, тебе это нахуй не надо"href="/profile.php"><img class="profile" src="icons/Profile.png"></a></li>
+                    <li><a title = "Не регайся, тебе это нахуй не надо"href="/registrationOrLogin.php"><img class="profile" src="icons/Profile.png"></a></li>
 
                 </ul>
             </nav>

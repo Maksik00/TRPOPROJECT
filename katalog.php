@@ -24,7 +24,7 @@
                         </div>
                     </li>
                     <li><a href="/korzina.php"><img class="korzina" src="icons/korzina.png"></a></li>
-                    <li><a href="/profile.php"><img class="profile" src="icons/Profile.png"></a></li>
+                    <li><a href="/registrationOrLogin.php"><img class="profile" src="icons/Profile.png"></a></li>
                 </ul>
             </nav>
         </header>

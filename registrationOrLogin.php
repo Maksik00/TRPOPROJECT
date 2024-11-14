@@ -31,3 +31,18 @@
     
     <div>
         <img class="profile1" src="image/bigprofile.png">
+        <br>
+        <form action="">
+            <label class ="label_mail"for="mail">Введите телефон</label><br>
+            <input type="tel" name="mail" class ="pochta">
+            <br>
+            <br>    
+            <label class = "label_sms" for="sms">Введите пароль</label> <br>
+            <input type="password" name="sms" class="sms"><br>
+
+            <button class="neon-button">Отправить</button>
+
+        </form><br>
+    </div>
+</body>
+</html>
