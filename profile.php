@@ -31,3 +31,16 @@
     
     <div>
         <img class="profile1" src="image/bigprofile.png">
+        <div class="containerLowerPorfile">
+            <span class="Name">Имя пользователя</span>
+            <span class="">Имя пользователя</span>
+            <span class="Name">Имя пользователя</span>
+            <span class="Name">Имя пользователя</span>
+
+
+        </div>
+        
+    
+    
+    </div>
+    
