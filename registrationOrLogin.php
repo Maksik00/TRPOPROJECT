@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
-    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/registrationOrLogin.css">
 </head>
 
 <body>
@@ -37,7 +37,11 @@
             <input type="text" name="pass" class ="pochta">
             <input type="text" name="repeatpass" class ="pochta">   
             <input type="text" name="email" class="sms"><br>
-            <button type = "submit" class="neon-button">Регистрация</button>
+            <button type = "submit" class="neon-button"><a href ="profile.php">Регистрация </a></button>
+        
+           
+           
+
         </form><br>
     </div>
 </body>
