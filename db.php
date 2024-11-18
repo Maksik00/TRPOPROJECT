@@ -1,12 +1,13 @@
 <?php
-$servername = "MySQL-8.2";
+$host = "MySQL-8.2";
 $username = "root";
 $password = "";
-$dbname = "registeruser";
+$dbname = "registerusers";
 
-$conn = mysqli_connect($servername, $username, $password, $dbname);
+$conn = mysqli_connect($host, $username, $password, $dbname);
 
 if (!$conn) {
     die("Ошибка подключения: " . mysqli_connect_error());
 }
+echo "Подключено успешно";
 ?>

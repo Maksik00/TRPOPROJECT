@@ -32,11 +32,15 @@
     <div>
         <img class="profile1" src="image/bigprofile.png">
         <br>
-        <form action="register.php" method = "post">
-            <input type="text" name="login" class ="pochta">
-            <input type="text" name="pass" class ="pochta">
-            <input type="text" name="repeatpass" class ="pochta">   
-            <input type="text" name="email" class="sms"><br>
+<form action="register.php" method="POST">
+    <label for="login">Логин:</label>
+    <input type="text" name="login" id="login" required><br>
+
+    <label for="password">Пароль:</label>
+    <input type="password" name="password" id="password" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required><br>
             <button type = "submit" class="neon-button"><a href ="profile.php">Регистрация </a></button>
         
            
