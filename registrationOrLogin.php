@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
-    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/registrationOrLogin.css">
 </head>
 
 <body>
@@ -40,7 +40,7 @@
             <label class = "label_sms" for="sms">Введите пароль</label> <br>
             <input type="password" name="sms" class="sms"><br>
 
-            <button class="neon-button">Отправить</button>
+            <button  class="neon-button"><a href ="profile.php">Отправить </a></button>
 
         </form><br>
     </div>
