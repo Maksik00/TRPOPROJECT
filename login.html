@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
-    <link rel="stylesheet" href="css/registrationOrLogin.css">
+    <link rel="stylesheet" href="css/login.css">
 </head>
 
 <body>
@@ -29,20 +29,25 @@
 
     </div>
     
-    <div class="parent-container">
+    <div>
         <img class="profile1" src="image/bigprofile.png">
         <br>
-
-<form action="register.php" method="POST">
+<form action="login.php" method="POST">
    
-        <form action="login.php" method="POST">
-            <input class="login" placeholder="Введите логин..." type="text" name="login" id="login" required>
-            <input class="password" placeholder="Введите пароль..." type="password" name="password" id="password" required>
-            <input class="email" placeholder="Введите email..." type="email" name="email" id="email" required>
-            <button type="submit" class="neon-button">Регистрация</button>
-        </form>
-        <span class="span1">У вас уже есть аккаунт? <a href="login.html"><p class="vhod">Войти</p></a></span>
+    <input class = "login" placeholder="Введите логин..." type="text" name="login" id="login" required><br>
+
+    
+    <input class = "password" placeholder = "Введите пароль..." type="password"  name="password" id="password" required><br>
+
+
+            <button type = "submit" class="neon-button">Вход</button>
+
+        
+           
+           
+
+        </form><br>
+    <span class="span1">У вас еще нет аккаунта?<a href="registrationOrLogin.html"><p class = "vhod">Регистрация</p></a></span>
     </div>
-    <br>
 </body>
 </html>
