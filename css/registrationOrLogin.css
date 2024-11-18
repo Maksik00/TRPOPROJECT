@@ -95,7 +95,7 @@ header {
 }
 
 .search-container button {
-    background-color: #2980b9;
+    background-color: #db13d7;
     color: #ffffff;
     border: none;
     padding: 10px 20px;
@@ -106,7 +106,7 @@ header {
 }
 
 .search-container button:hover {
-    background-color: #1f6da8;
+    background-color: #f4099e;
 }
 
 /* Profile and Cart */
@@ -125,20 +125,21 @@ header {
     max-width: 250px;
 }
 
-#login {
-    margin-left: 80px;
+.login {
+    margin-left: 840px;
 }
 
-#password {
-    margin-left: 80px;
+.password {
+    margin-left: 840px;
 }
 
-#email {
-    margin-left: 80px;
+.email {
+    margin-left: 840px;
 }
 
 .batton {
-    margin: 20px 0 0 895px;
+    margin: 20px;
+    margin-left: 820px;
     background-color: #2980b9;
     color: #ffffff;
     border: none;
@@ -164,7 +165,7 @@ header {
     letter-spacing: 1px;
     transition: all 0.3s ease;
     padding: 10px 20px;
-    margin-left: 880px;
+    margin-left: 868px;
 }
 
 .neon-button:hover {
