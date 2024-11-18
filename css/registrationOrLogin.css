@@ -126,14 +126,17 @@ header {
 }
 
 .login {
+    display: flexbox;
     margin-left: 840px;
 }
 
 .password {
+    display: flexbox;
     margin-left: 840px;
 }
 
 .email {
+    display: flexbox;
     margin-left: 840px;
 }
 
