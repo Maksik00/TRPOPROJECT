@@ -121,54 +121,30 @@ header {
 }
 
 .profile1 {
-    margin-bottom: 30px; /* Уменьшите отступ до формы */
-    max-width: 300px;    /* Размер иконки, при необходимости */
+    margin-left: 810px;
+    max-width: 250px;
 }
 
-.parent-container {
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+.login {
+    display: flexbox;
+    margin-left: 840px;
 }
 
-.parent-container input {
-    
-    margin: 10px 0;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 9px;
-    width: 300px; /* Фиксированная ширина */
-}
-.parent-container button {
-    
-    margin: 10px 0;
-    padding: 10px;
-    border: 1px solid #cf2bb7;
-    border-radius: 15px;
-    width: 100px; /* Фиксированная ширина */
+.password {
+    display: flexbox;
+    margin-left: 840px;
 }
 
-
-.parent-container form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.email {
+    display: flexbox;
+    margin-left: 840px;
 }
-
-.span1 {
-    margin-top: 10px;
-    text-align: center;
+.span1{
+    margin-left: 850px;
 }
-
-.vhod {
-    display: inline; /* Чтобы текст "Войти" не создавал новый блок */
+.vhod{
+    margin-left: 890px;
 }
-
-
-
 
 .batton {
     margin: 20px;
@@ -198,7 +174,7 @@ header {
     letter-spacing: 1px;
     transition: all 0.3s ease;
     padding: 10px 20px;
-    margin-left: 868px;
+    margin-left: 890px;
 }
 
 .neon-button:hover {
