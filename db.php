@@ -2,7 +2,7 @@
 $host = "MySQL-8.2";
 $username = "root";
 $password = "";
-$dbname = "registerusers";
+$dbname = "mydatabase";
 
 $conn = mysqli_connect($host, $username, $password, $dbname);
 

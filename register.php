@@ -3,11 +3,11 @@ require_once('db.php');
 
 // Считываем данные из формы
 $login = trim($_POST['login']);
-$pass = trim($_POST['password']);
+$password = trim($_POST['password']);
 $email = trim($_POST['email']);
 
 // Проверяем, что поля не пустые
-if (empty($login) || empty($pass) || empty($email)) {
+if (empty($login) || empty($password) || empty($email)) {
     die("Все поля должны быть заполнены!");
 }
 
@@ -17,7 +17,9 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 }
 
 // Хешируем пароль
-$hashed_password = password_hash($pass, PASSWORD_DEFAULT);
+$password = password_hash($password, PASSWORD_DEFAULT);
+
+
 
 // Проверяем, есть ли пользователь с таким логином или email
 $query = $conn->prepare("SELECT * FROM users WHERE login = ? OR email = ?");
@@ -31,13 +33,17 @@ if ($result->num_rows > 0) {
 
 // Добавляем нового пользователя в базу данных
 $stmt = $conn->prepare("INSERT INTO users (login, password, email) VALUES (?, ?, ?)");
-$stmt->bind_param("sss", $login, $hashed_password, $email);
+$stmt->bind_param("sss", $login, $password, $email);
 
 if ($stmt->execute()) {
     echo "Регистрация успешна!";
 } else {
     echo "Ошибка при регистрации: " . $stmt->error;
 }
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
 // Закрываем подключение
 $stmt->close();
