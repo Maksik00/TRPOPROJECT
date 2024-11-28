@@ -134,6 +134,10 @@ header {
 
 .profile1 {
     margin-top: 10px;
-    margin-left: 10px;
-    max-width: 80px;
+    margin-left: 20px;
+    max-width: 250px;
+}
+.containerLowerPorfile{
+    margin-top: 30px;
+    gap: 20px;
 }

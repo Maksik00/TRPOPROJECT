@@ -37,7 +37,7 @@ $stmt->bind_param("sss", $login, $password, $email);
 
 if ($stmt->execute()) {
     echo "Регистрация успешна!";
-    header("Location: profile.html"); //Перенаправляет пользователя на указаную страницу
+    header("Location: profile.php"); //Перенаправляет пользователя на указаную страницу
     exit();//Прерывает выполнение скрипта после перенаправления
 } else {
     echo "Ошибка при регистрации: " . $stmt->error;
